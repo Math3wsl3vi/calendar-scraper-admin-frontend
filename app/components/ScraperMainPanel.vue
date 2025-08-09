@@ -4,18 +4,18 @@
     <div class="grid grid-cols-1 gap-6">
       <!-- Season Selection -->
      <div class="flex items-center relative">
-          <label class="text-sm font-medium text-gray-700 w-32 flex-shrink-0">
-            Season:
-          </label>
-          <select
-            v-model="settings.season"
-            class="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 z-10"
-          >
-            <option value="2024/2025">2024/2025</option>
-            <option value="2023/2024">2023/2024</option>
-            <option value="2025/2026">2025/2026</option>
-          </select>
-        </div>
+        <label class="text-sm font-medium text-gray-700 w-32 flex-shrink-0">
+          Season:
+        </label>
+        <select
+          v-model="settings.season"
+          class="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 z-10"
+        >
+          <option value="2024/2025">2024/2025</option>
+          <option value="2023/2024">2023/2024</option>
+          <option value="2025/2026">2025/2026</option>
+        </select>
+      </div>
       
       <!-- Link Structure -->
       <div class="flex items-start">
